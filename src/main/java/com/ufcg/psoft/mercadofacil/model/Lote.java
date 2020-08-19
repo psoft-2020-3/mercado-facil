@@ -1,4 +1,4 @@
-package com.ufcg.psoft.estoquefacil.model;
+package com.ufcg.psoft.mercadofacil.model;
 
 import javax.persistence.Embedded;
 import javax.persistence.Entity;

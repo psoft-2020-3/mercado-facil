@@ -1,4 +1,4 @@
-package com.ufcg.psoft.estoquefacil.model;
+package com.ufcg.psoft.mercadofacil.model;
 
 import java.math.BigDecimal;
 
@@ -7,7 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-import com.ufcg.psoft.estoquefacil.model.Produto;
+import com.ufcg.psoft.mercadofacil.model.Produto;
 
 import exceptions.ObjetoInvalidoException;
 

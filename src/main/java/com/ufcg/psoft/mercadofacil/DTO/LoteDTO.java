@@ -1,4 +1,4 @@
-package com.ufcg.psoft.estoquefacil.DTO;
+package com.ufcg.psoft.mercadofacil.DTO;
 
 public class LoteDTO {
 

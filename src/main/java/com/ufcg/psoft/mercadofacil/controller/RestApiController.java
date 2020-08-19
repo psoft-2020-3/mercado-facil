@@ -1,4 +1,4 @@
-package com.ufcg.psoft.estoquefacil.controller;
+package com.ufcg.psoft.mercadofacil.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,12 +15,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.ufcg.psoft.estoquefacil.DTO.LoteDTO;
-import com.ufcg.psoft.estoquefacil.model.Lote;
-import com.ufcg.psoft.estoquefacil.model.Produto;
-import com.ufcg.psoft.estoquefacil.repositories.LoteRepository;
-import com.ufcg.psoft.estoquefacil.repositories.ProdutoRepository;
-import com.ufcg.psoft.estoquefacil.util.CustomErrorType;
+import com.ufcg.psoft.mercadofacil.DTO.LoteDTO;
+import com.ufcg.psoft.mercadofacil.model.Lote;
+import com.ufcg.psoft.mercadofacil.model.Produto;
+import com.ufcg.psoft.mercadofacil.repositories.LoteRepository;
+import com.ufcg.psoft.mercadofacil.repositories.ProdutoRepository;
+import com.ufcg.psoft.mercadofacil.util.CustomErrorType;
 
 import exceptions.ObjetoInvalidoException;
 

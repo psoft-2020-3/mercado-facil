@@ -1,4 +1,4 @@
-package com.ufcg.psoft.estoquefacil.util;
+package com.ufcg.psoft.mercadofacil.util;
 
 
 public class CustomErrorType {

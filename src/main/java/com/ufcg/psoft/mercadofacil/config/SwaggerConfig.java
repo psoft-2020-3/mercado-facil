@@ -1,4 +1,4 @@
-package com.ufcg.psoft.estoquefacil.config;
+package com.ufcg.psoft.mercadofacil.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
