@@ -134,7 +134,7 @@ public class RestApiController {
 		}
 		
 		Produto product = optionalProduto.get();
-		Lote lote = new Lote(product, loteDTO.getNumeroDeItens(), loteDTO.getDataDeValidade());
+		Lote lote = new Lote(product, loteDTO.getNumeroDeItens());
 		
 		loteRepository.save(lote);
 		
