@@ -103,7 +103,7 @@ public class RestApiController {
 		currentProduto.mudaFabricante(produto.getFabricante());
 		currentProduto.mudaCategoria(produto.getCategoria());
 
-		produtoRepository.save(produto);
+		produtoRepository.save(currentProduto);
 		
 		return new ResponseEntity<Produto>(currentProduto, HttpStatus.OK);
 	}
